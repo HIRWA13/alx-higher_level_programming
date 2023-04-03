@@ -1,30 +1,32 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 class Square:
     """Square Class
 
     Attributes:
-        size
+        size (int): square size
     """
     def __init__(self, size=0):
-        """__init__method of Square
+        """__init__method of Square class
 
-        Arguments:
-            self(default)
-            size whixh is assigned to zero
+        Args:
+            size: (:obj: 'int', optional): private instance size
+
+        Raises:
+            TypeError: Exception if size is not an integer
+            ValueError: Exception if size is less than 0
         """
         if type(size) is not int:
-            raise TypeError("Incorect Type, must be int")
+            raise TypeError("size must be an integer")
         elif size < 0:
-            raise ValueError("Size can not be less than Zero")
+            raise ValueError("size must be >= 0")
         else:
             self.__size = size
 
     def area(self):
-        """are method to create area
+        """areq method to create area
 
-        Arguments:
-            self(default)
         Returns:
             The area of a square
         """

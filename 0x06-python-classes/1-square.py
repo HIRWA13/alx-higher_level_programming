@@ -1,15 +1,16 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 class Square:
     """a Square class
+
     Attributes:
-    size: size of int type to specifie the square size
+        size (int): size of int type to specifie the square size
     """
     def __init__(self, size):
-        """the __init__ method for Square
+        """the __init__ method for Square class
 
-        Arguments:
-        self(default argument)
-        size(object instance)
+        Args:
+            size: (:obj: 'int'): private size instance
         """
         self.__size = size
