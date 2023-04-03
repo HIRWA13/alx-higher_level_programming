@@ -7,7 +7,7 @@ Created on Mon Apr 3 23:00:12 2023
 
 
 class Square:
-    """Square Class
+    """Square Class with attributes and size as instance attribute
 
     Attributes:
         size (int): size of square
