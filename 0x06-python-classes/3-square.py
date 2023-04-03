@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 3 23:57:43 2023
+@author: Jr Hirwa
+"""
+
 
 class Square:
     """Square Class
